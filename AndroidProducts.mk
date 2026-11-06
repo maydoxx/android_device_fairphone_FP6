@@ -6,9 +6,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_FP6.mk
+    $(LOCAL_DIR)/twrp_FP6.mk
 
-COMMON_LUNCH_CHOICES := \
-    omni_FP6-user \
-    omni_FP6-userdebug \
-    omni_FP6-eng
+COMMON_LUNCH_CHOICES := twrp_FP6-eng
